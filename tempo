@@ -1,0 +1,18 @@
+background(231,14,14);
+int a = millis()/1000;
+
+void main(){
+  animate(ejecutar);
+}
+
+
+void ejecutar(){
+  int b = a - millis()/1000;
+  println (“tiempo: "+ b );
+  if(b <= -5){
+    a = millis()/1000;
+    b = a - millis()/1000;
+   background;
+  }
+ 
+}
